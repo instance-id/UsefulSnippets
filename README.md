@@ -34,14 +34,16 @@ namespace instance.id.ColorExtensions
 </details>
 
 
+
 ## UIElements
  
 #### UIElements - Draw IMGUI Reorderable Lists (2020.2)
 
-![](https://i.imgur.com/4IbSmKv.png)
+| ![](https://i.imgur.com/4IbSmKv.png) |  
+| --- |  
 
- <details>
- <summary>SerializedProperty Extension to determine if property is a List/Array</summary>
+<details>
+<summary>SerializedProperty Extension to determine if property is a List/Array</summary>
  
 ```cs
 public static class PropertyExtensions
@@ -53,12 +55,12 @@ public static class PropertyExtensions
 }
 ```
 
- </details>
+</details>
 
- <details>
- <summary>Draw IMGUI Reorderable Lists Code</summary>
+<details>
+<summary>Draw IMGUI Reorderable Lists Code</summary>
   
- ```cs
+```cs
 [CustomEditor(typeof(Object), true, isFallback = true)]
 [CanEditMultipleObjects]
 public class DefaultEditorDrawer : Editor
@@ -137,5 +139,14 @@ public class DefaultEditorDrawer : Editor
         EditorGUI.EndChangeCheck();
     }
 }
- ```
- </details>
+
+```
+</details>
+
+
+
+
+
+
+---
+![alt text](https://i.imgur.com/cg5ow2M.png "instance.id")
