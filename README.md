@@ -4,6 +4,7 @@ A collection of Unity / Unity3d code snippets that I found useful. Perhaps other
 ## Color
  
 #### GetColor() Extension
+<p>
 Usage: 
 ```cs 
 // -- Standard Color
@@ -32,13 +33,13 @@ namespace instance.id.ColorExtensions
 
 ```
 </details>
-
+</p>
 
 
 ## UIElements
  
 #### UIElements - Draw IMGUI Reorderable Lists (2020.2)
-
+<p>
 | ![](https://i.imgur.com/4IbSmKv.png) |  
 | --- |  
 
@@ -143,7 +144,7 @@ public class DefaultEditorDrawer : Editor
 ```
 </details>
 
-
+</p>
 
 
 
